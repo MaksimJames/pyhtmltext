@@ -1,0 +1,4 @@
+/env
+src/test.py
+__pycache__/
+requirements.txt
