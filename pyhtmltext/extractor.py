@@ -80,7 +80,7 @@ class Extractor:
         
         return self.__concatinate_datas(entities=self.entities, separator=self.separator)
     
-    def extract_sentences(self) -> str:
+    def extract_sentences(self) -> List[str]:
         """
             @return List[str]
                 List of sentences sentenized by razdel

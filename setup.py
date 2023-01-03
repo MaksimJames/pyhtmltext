@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pyhtmltext", # Replace with your username
-    version="0.0.3",
+    version="0.0.4",
     author="Maksim Prilepsky",
     author_email="maksimprilepsky@yandex.ru",
     description="Usefull tool for extracting text and sentences from html",
