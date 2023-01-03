@@ -53,8 +53,8 @@ class Extractor:
                 text += entitie_elem[1]   
             if entitie_elem[0] == 'tag' and entitie_elem[2] == 'outer':
                 last_tag_is_outer = True
-            else:
-                last_tag_is_outer = False 
+            elif entitie_elem[0] == 'tag' and entitie_elem[2] == 'outer' and entitie_elem[1].startswith('</'):
+                last_tag_is_outer = False
             
         return text
     
