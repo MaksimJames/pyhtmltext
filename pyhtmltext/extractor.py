@@ -2,7 +2,7 @@ from typing import List
 
 from razdel import sentenize
 
-from html_parser import CustomHTMLParser
+from pyhtmltext.html_parser import CustomHTMLParser
 
 
 class Extractor:

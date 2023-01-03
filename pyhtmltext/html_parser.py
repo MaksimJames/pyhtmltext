@@ -2,7 +2,7 @@ from typing import List
 
 from html.parser import HTMLParser
 
-from const import NON_PROCESSING_TAGS, INNER_TAGS, OUTER_TAGS
+from pyhtmltext.const import NON_PROCESSING_TAGS, INNER_TAGS, OUTER_TAGS
 
 
 class CustomHTMLParser(HTMLParser):
