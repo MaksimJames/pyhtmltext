@@ -4,7 +4,7 @@
 pyhtmltext is a usefull and flexible tool for extracting text from html.
 
 # Help
-See for more details.
+See [documentation](docs/USAGE.md) for more details.
 
 # Installation
 ```
